@@ -1,0 +1,104 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+}
+.container {
+  max-width: 936px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =====================================Header================================ */
+.header {
+  padding-top: 71px;
+  padding-bottom: 92px;
+}
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-link:hover {
+  color: #03a9f4;
+}
+
+/* =====================================Main================================ */
+.gallary-category {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #b4ad9e;
+}
+.gallary-title {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+.gallary-button {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 40%;
+  margin-top: 94px;
+  color: #626262;
+  width: 165px;
+  height: 60px;
+}
+.gallary {
+  padding-bottom: 66px;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.one .gallary-card:first-child {
+  margin-right: 65px;
+  max-width: 420px;
+  height: 546px;
+}
+.one .gallary-card:last-child {
+  max-width: 420px;
+  height: 546px;
+}
+.two .gallary-card:first-child {
+  margin-right: 65px;
+  max-width: 420px;
+  height: 546px;
+}
+.two .gallary-card:last-child {
+  max-width: 420px;
+  height: 546px;
+}
+.three .gallary-card:first-child {
+  margin-right: 65px;
+  max-width: 420px;
+  height: 546px;
+}
+.three .gallary-card:last-child {
+  max-width: 420px;
+  height: 546px;
+}
+.gallary-photo {
+  padding-bottom: 62px;
+}
+.gallary-category {
+  padding-bottom: 32px;
+}
