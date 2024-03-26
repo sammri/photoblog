@@ -18,6 +18,8 @@ body {
   padding-bottom: 92px;
 }
 .menu-list {
+  margin: 0 auto;
+  width: 655px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -28,6 +30,7 @@ body {
 }
 
 /* =====================================Main================================ */
+
 .gallary-category {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -46,53 +49,40 @@ body {
   color: #626262;
   width: 165px;
   height: 60px;
+  border: 1px solid #626262;
 }
 .gallary {
   padding-bottom: 66px;
 }
-
-.one {
+.first-column {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-.two {
+.first-column .gallary-card:first-child {
+  margin-right: 65px;
+  max-width: 420px;
+  height: 546px;
+}
+.first-column .gallary-card:last-child {
+  max-width: 420px;
+  height: 546px;
+}
+.column {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-top: 130px;
+  position: relative;
 }
-.three {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.one .gallary-card:first-child {
+.column .gallary-card:first-child {
   margin-right: 65px;
   max-width: 420px;
   height: 546px;
 }
-.one .gallary-card:last-child {
-  max-width: 420px;
-  height: 546px;
-}
-.two .gallary-card:first-child {
-  margin-right: 65px;
-  max-width: 420px;
-  height: 546px;
-}
-.two .gallary-card:last-child {
-  max-width: 420px;
-  height: 546px;
-}
-.three .gallary-card:first-child {
-  margin-right: 65px;
-  max-width: 420px;
-  height: 546px;
-}
-.three .gallary-card:last-child {
+.column .gallary-card:last-child {
   max-width: 420px;
   height: 546px;
 }
